@@ -32,6 +32,6 @@ WhatsApp, Instagram, Messenger, e-mail, SMS, telefonia, IA e WinThor não estão
 
 ## Versão web no GitHub
 
-O fluxo `.github/workflows/pages.yml` verifica a sintaxe, executa os testes e publica apenas a pasta `dist` no GitHub Pages após alterações em `main`. Configure Settings → Pages → Source → GitHub Actions no repositório. A disponibilidade depende do plano e da visibilidade escolhida. Não há dependências para instalar nem segredos necessários a esse fluxo.
+O fluxo `.github/workflows/pages.yml` verifica a sintaxe e executa os testes após alterações em `main`. A publicação da pasta `dist` no GitHub Pages fica desativada até a variável de repositório `PAGES_ENABLED` ser definida como `true`. Para habilitar, configure Settings → Pages → Source → GitHub Actions e Settings → Secrets and variables → Actions → Variables → `PAGES_ENABLED=true`. A disponibilidade depende do plano e da visibilidade escolhida. Não há dependências para instalar nem segredos necessários a esse fluxo.
 
 O site é uma demonstração e os dados são locais a cada navegador; publicá-lo não cria um serviço multiusuário. Não inserir dados pessoais reais. Não há licença de código aberto concedida neste repositório.

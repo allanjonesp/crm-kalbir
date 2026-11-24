@@ -25,13 +25,16 @@ jobs:
       - name: Testar regras comerciais
         run: npm test
       - name: Preparar GitHub Pages
+        if: vars.PAGES_ENABLED == 'true'
         uses: actions/configure-pages@v5
       - name: Preparar arquivos da versão web
+        if: vars.PAGES_ENABLED == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
+    if: vars.PAGES_ENABLED == 'true'
     needs: validate
     runs-on: ubuntu-latest
     permissions:
