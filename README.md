@@ -2,6 +2,8 @@
 
 Aplicação de demonstração com dados fictícios, baseada nas referências visuais e nos requisitos da operação Kalbir. Interface em português e sem dependências de execução no servidor.
 
+**[Guia passo a passo para trabalhar no Antigravity, salvar no GitHub e atualizar o site](GUIA-GITHUB.md).**
+
 ## Executar
 
 Com Node.js instalado, dê dois cliques em `Iniciar CRM.cmd` e acesse http://127.0.0.1:4173. Mantenha a janela aberta durante o uso. Alternativamente, abra esta pasta no Antigravity e execute `npm start`. Para validar as regras: `npm test`.
