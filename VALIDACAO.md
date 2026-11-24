@@ -12,8 +12,8 @@ Chrome local: dashboard e navegação renderizados; cadastro fictício por Insta
 
 ## Integrações e publicação
 
-Nenhuma conexão de canal, IA, ERP ou banco criada. Fluxo de publicação do GitHub Pages preparado; verificar execução e endereço publicado no GitHub antes de considerar a versão web disponível.
+Nenhuma conexão de canal, IA, ERP ou banco criada. Código salvo no repositório privado https://github.com/allanjonesp/crm-kalbir. A validação automática da versão 5f5360c passou no GitHub Actions. A conta atual exige upgrade ou repositório público para habilitar GitHub Pages. Publicação permanece desativada e aguarda escolha de visibilidade/hospedagem; nenhum endereço web foi publicado.
 
 ## Limites operacionais
 
-Usar somente dados fictícios. Persistência por navegador, sem contas reais, dados compartilhados ou proteção de acesso pelo seletor de perfil. Fonte pronta para abrir no Antigravity; vínculo com GitHub e backend permanecem pendentes.
+Usar somente dados fictícios. Persistência por navegador, sem contas reais, dados compartilhados ou proteção de acesso pelo seletor de perfil. Fonte pronta para abrir no Antigravity e vinculada ao GitHub. Backend e versão web permanecem pendentes.
