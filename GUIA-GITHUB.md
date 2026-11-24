@@ -3,11 +3,12 @@
 ## Seus endereços e a pasta de trabalho
 
 - Código e histórico: https://github.com/allanjonesp/crm-kalbir
+- Versão web do piloto: https://allanjonesp.github.io/crm-kalbir/
 - Testes e publicação: https://github.com/allanjonesp/crm-kalbir/actions
 - Configuração da hospedagem: https://github.com/allanjonesp/crm-kalbir/settings/pages
 - Pasta já conectada ao GitHub neste computador: `C:\Users\allan\Documents\Codex\2026-11-23\referenced-chatgpt-conversation-this-is-an\outputs\crm-kalbir`
 
-O endereço da versão web será confirmado em Settings → Pages e no resultado da publicação. A simples existência do repositório não significa que o site esteja publicado.
+O piloto foi publicado no GitHub Pages em 24/11/2026, com o repositório público por autorização do proprietário. A origem GitHub Actions e a variável `PAGES_ENABLED=true` já foram configuradas. Não é necessário repetir a configuração: os próximos envios para `main` executam testes e atualizam o site automaticamente. Confira o resultado em Actions.
 
 ## 1. Abrir o projeto atual no Antigravity
 
